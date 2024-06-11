@@ -5,4 +5,4 @@ data=pd.read_csv("C:/Users/Administrator/Desktop/Mlops vignesh/practicals/wine-q
 print(data)
 x=data.iloc[:,:-1]
 y=data.iloc[:-1]
-
+x_train,y_train,x_test,y_test=train_test_split()
